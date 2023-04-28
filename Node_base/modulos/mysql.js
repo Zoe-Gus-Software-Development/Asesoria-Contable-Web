@@ -3,11 +3,11 @@ var mysql = require("mysql2/promise");
 
 var SQL_Config_Data =
 {
-	host: "186.18.252.243",
-	user: "alumno_pio2019",
-	password: "Alumnos2019",
-	database: "mysql",
-	port: 3306,
+	host: "",
+	user: "",
+	password: "",
+	database: "",
+	port: ,
 	charset: 'UTF8_GENERAL_CI'
 }
 
