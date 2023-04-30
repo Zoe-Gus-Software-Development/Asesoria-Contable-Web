@@ -55,3 +55,8 @@ Paso 7:
 ```npm start```
 
 iniciar servidor
+
+---
+
+PAGINA PARA LEER BOOTSTRAP CSS Y JS.
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
