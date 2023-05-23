@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!--<link href="./style.css" rel="stylesheet">-->
     <title>Document</title>
 </head>
-<body>
+<body class="bg-gray-200">
+    <header class="flex flex-wrap items-center justify-between mx-auto p-4 shadow-lg bg-white">
+        <div id="logo" class="flex flex-row items-center space-x-4">
+            <img src="../img/logoChanel.jpg" alt="logoChanel" class="w-auto h-16">
+            <span class="text-2xl font-bold">TITULO</span>
+        </div>
+        <div id="navegacionDesplegable" class="block lg:hidden">
+            <img src="../img/hamburgerMenu.png" alt="" class="w-auto h-10">
+        </div>
+        <div id="navegacion" class="mt-2 border-t-2 border-gray-300 lg:border-none w-full block lg:flex lg:items-center lg:w-auto lg:flex-row hidden">
+            <a href="#" class="block lg:inline-block ml-2 mt-4 p-3 lg:p-0 lg:mt-0 lg:mx-4 rounded hover:bg-gray-600 hover:text-white hover:font-bold lg:hover:text-black lg:hover:bg-white">CONTACTO</a>
+            <a href="#" class="block lg:inline-block ml-2 mt-4 p-3 lg:p-0 lg:mt-0 lg:mx-4 rounded hover:bg-gray-600 hover:text-white hover:font-bold lg:hover:text-black lg:hover:bg-white">NOVEDADES</a>
+            <a href="#" class="block lg:inline-block ml-2 mt-4 p-3 lg:p-0 lg:mt-0 lg:mx-4 rounded hover:bg-gray-600 hover:text-white hover:font-bold lg:hover:text-black lg:hover:bg-white">INICIO</a>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
     <script src="./index.js"></script>
 </body>
 </html>
